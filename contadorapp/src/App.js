@@ -9,6 +9,10 @@ function App() {
             <h1>5</h1>
           </div>
         </div>
+
+        <div className="Btn">
+          <button>Click</button>
+        </div>
     </div>
   );
 }
