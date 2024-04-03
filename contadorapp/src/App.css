@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Contenedor{
+  background: linear-gradient(52deg, rgb(231, 9, 9), #fff);
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Contador_Btn{
+  width: 30%;
+  height: 400px;
+  background: #fff;
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Contador{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Numero{
+  border: 2px solid red;
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 70px;
+  color: gray;
+}
+
+.Btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Btn button{
+  background: red;
+  width: 70%;
+  height: 25%;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  transition: .3s all;
+  border-radius: 5px;
+}
+
+.Btn button:hover{
+  background: gray;
 }
